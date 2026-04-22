@@ -140,6 +140,8 @@ Admin approves        Admin rejects
      |                     |
   approved              rejected
 
+
+
 Rules:
 - Cannot skip steps
 - Cannot approve before quoting
