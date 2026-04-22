@@ -144,8 +144,8 @@ Rules:
 - Cannot skip steps
 - Cannot approve before quoting
 - Cannot quote an already quoted request 
-- Cannot approve/reject an already approved/rejected request 
-
+- Cannot approve an already approved request 
+- Can approve an already rejected request 
 
 --------------------------------------------------------------
 

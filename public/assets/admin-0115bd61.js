@@ -49,8 +49,11 @@
         var actions = '—'
         if (r.status === 'quoted') {
           actions =
-            '<button class="approve-btn" onclick="approveRequest(' + r.id + ')">Approve</button>' +
             '<button class="reject-btn"  onclick="rejectRequest('  + r.id + ')">Reject</button>'
+        }
+        if (r.status === 'quoted' || r.status === 'rejected') {
+          actions +=
+            '<button class="approve-btn" onclick="approveRequest(' + r.id + ')">Approve</button>'
         }
 
         rows += '<tr>' +

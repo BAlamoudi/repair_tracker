@@ -88,8 +88,8 @@ class Api::RepairRequestsController < ApplicationController
   
       repair_request = RepairRequest.find(params[:id])
   
-      # Can only approve or reject a quoted request
-      unless repair_request.status == 'quoted'
+      # Can only approve or reject a quoted request and also can approve a rejeced request
+      unless repair_request.status == 'quoted' || repair_request.status == 'rejected'
         return render json: { error: "Cannot #{new_status} a request with status: #{repair_request.status}" }, status: :unprocessable_entity
       end
   
