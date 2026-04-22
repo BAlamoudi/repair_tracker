@@ -31,6 +31,8 @@ module RepairTracker
 
     config.middleware.use ActionDispatch::Cookies
     config.middleware.use ActionDispatch::Session::CookieStore
+    config.assets.paths << Rails.root.join("app/javascript")
+    config.assets.paths << Rails.root.join("app/stylesheets")
  
   end
 end

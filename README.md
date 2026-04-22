@@ -132,11 +132,9 @@ Authorization: Bearer "YOUR_TOKEN"
                 |
              quoted
                 |
-      ---------------------   
-     |                     |
-Admin approves        Admin rejects
-     |                     |
-  approved              rejected
+      Admin approves/rejects
+                |
+        approved/rejected
 
 Rules:
 - Cannot skip steps
