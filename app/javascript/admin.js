@@ -46,7 +46,7 @@
         var r = requests[i]
 
         // only show approve/reject on quoted requests and can approve rejected request
-        var actions = '—'
+        var actions = ''
         if (r.status === 'quoted') {
           actions =
             '<button class="reject-btn"  onclick="rejectRequest('  + r.id + ')">Reject</button>'
