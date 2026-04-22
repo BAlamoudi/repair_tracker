@@ -45,7 +45,9 @@ go to http://127.0.0.1:3000
 After running `bin/rails db:seed` these users are available:
 
 1- Customer <- Rule, customer@test.com <- Email, password123 <- Password
+
 2- Workshop <- Rule, workshop@test.com <- Email, password123 <- Password
+
 3- Admin <- Rule, admin@test.com <- Email, password123 <- Password
 
 ## Using UI
@@ -135,6 +137,8 @@ Authorization: Bearer "YOUR_TOKEN"
       Admin approves/rejects
                 |
         approved/rejected
+
+
 
 Rules:
 - Cannot skip steps
