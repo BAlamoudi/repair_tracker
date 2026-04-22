@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  repair_request_id: 1
+  user_id: 1
+  action: MyString
+  from_status: MyString
+  to_status: MyString
+
+two:
+  repair_request_id: 1
+  user_id: 1
+  action: MyString
+  from_status: MyString
+  to_status: MyString
